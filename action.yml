@@ -10,6 +10,9 @@ inputs:
     required: true
   command:
     required: true
+  endpoint-url:
+    required: false
+    default: https://s3.selcdn.ru
   zip-option:
     required: false
     default: -ryq
