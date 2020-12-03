@@ -10,7 +10,7 @@ inputs:
     required: true
   command:
     required: true
-  endpoint-url:
+  endpointurl:
     required: false
     default: https://s3.selcdn.ru
   zip-option:

@@ -14,7 +14,7 @@ async function run() {
     const unzipOption = core.getInput('unzip-option', { required: false });
     const workingDirectory = core.getInput('working-directory', { required: false });
     const fileName = cacheKey + '.zip';
-    const endpointurl = core.getInput('endpoint-url', { required: true}); 
+    const endpointurl = core.getInput('endpointurl', { required: true}); 
 
     process.chdir(workingDirectory);
 
