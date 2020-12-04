@@ -12,7 +12,7 @@ inputs:
     required: true
   endpointurl:
     required: false
-    default: https://s3.selcdn.ru
+    default: "https://s3.selcdn.ru"
   zip-option:
     required: false
     default: -ryq
