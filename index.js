@@ -9,7 +9,7 @@ async function run() {
     const s3Bucket = core.getInput('s3-bucket', { required: true });
     const cacheKey = core.getInput('cache-key', { required: true });
     const paths = core.getInput('paths', { required: true });
-    const command = core.getInput('command', { required: true });
+    const command = core.getInput('command', { required: false });
     const zipOption = core.getInput('zip-option', { required: false });
     const unzipOption = core.getInput('unzip-option', { required: false });
     const workingDirectory = core.getInput('working-directory', { required: false });
