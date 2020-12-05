@@ -9,7 +9,7 @@ inputs:
   paths:
     required: true
   command:
-    required: true
+    required: false #?
   endpointurl:
     required: false
   zip-option:
